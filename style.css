@@ -1,0 +1,407 @@
+
+
+.home-page {
+  background-image: url('https://www.bizzmosis.com/wp-content/uploads/2022/10/Blog-Banner_Product-Registration.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h1home {
+  font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+}
+
+.phome {
+  max-width: 800px;
+  margin: 30px auto;
+  line-height: 1.8;
+  font-size: 18px;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  color:#eeead6;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.uaemoneytips-page {
+  background-color: #131e3d;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-text {
+    max-width: 550px;
+}
+
+
+/* H1 style */
+.h1money {
+    font-family: "Courier New", monospace;
+    color: #e8d1ae;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* H2 style */
+.h2money {
+    font-family: "Courier New", monospace;
+    color: #e8d1ae;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Ordered List style */
+.olmoney {
+    font-family: "Courier New", monospace;
+    color: #e8d1ae;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ==== VIDEO SAME SIZE AS YOUR IMAGES ==== */
+.video-box {
+    width: 600x;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+/* Right side alignment */
+.right-side {
+    text-align: center;
+    margin-left: 60px;
+}
+
+/* Full dark blue background and gold-beige text */
+/* PAGE BACKGROUND */
+.expensetraps-page {
+    background-color: #131e3d !important;
+    color: #e8d1ae;
+    min-height: 100vh;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN CONTENT CONTAINER */
+.container1 {
+    padding: 50px 60px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* HEADINGS */
+.h1expense {
+    font-size: 42px;
+    color: #e8d1ae;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.h2expense {
+    font-size: 26px;
+    margin-top: 35px;
+    margin-bottom: 12px;
+    color: #e8d1ae;
+}
+
+/* PARAGRAPHS */
+.pexpense {
+    font-size: 18px;
+    line-height: 1.7;
+    opacity: 0.9;
+}
+
+/* ORDERED LIST */
+.olexpense {
+    margin-left: 25px;
+    line-height: 1.8;
+}
+
+/* IMAGES GRID */
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.image-card {
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 10px;
+    transition: transform 0.3s ease;
+    background: none !important; /* no box */
+}
+
+
+.image-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* HOVER EFFECT */
+.image-card:hover {
+    transform: scale(1.05);
+}
+
+/* DESCRIPTION — NO BACKGROUND BOX */
+.description {
+    color: #e8d1ae;
+    padding: 10px;
+    font-weight: bold;
+    background: none !important; /* no box */
+}
+
+/* PAGE BACKGROUND */
+.budgetchallenge-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #131e3d !important;
+    font-family: 'Courier New', monospace;
+    color: #e8d1ae;
+}
+
+/* MAIN CONTENT */
+.container2 {
+    padding: 50px 60px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HEADINGS */
+.h1budget {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #e8d1ae;
+}
+
+.h2budget {
+    font-size: 26px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.h3budget {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* TEXT */
+.pbudget,
+label {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* REMOVE BACKGROUND BOX FROM GAME SECTION */
+.game-section {
+    margin-top: 25px;
+    padding: 20px 0;
+}
+
+/* INPUTS */
+.game-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e8d1ae;
+    color: #131e3d;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.game-section button {
+    background-color: #e8d1ae;
+    color: #131e3d;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.2s ease;
+}
+
+.game-section button:hover {
+    transform: scale(1.05);
+}
+
+/* RESULT */
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+/* FULL-PAGE DARK BLUE BACKGROUND */
+html, body, .quiz-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #131e3d !important;
+    color: #e8d1ae !important;
+    font-family: 'Courier New', monospace;
+}
+
+/* MAIN CONTAINER */
+.container3 {
+    padding: 50px 60px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* HEADINGS */
+.h1quiz {
+    font-size: 42px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #e8d1ae;
+}
+
+.h2quiz {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #e8d1ae;
+}
+
+/* PARAGRAPHS */
+.pquiz {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* QUESTIONS */
+.question {
+    padding: 20px 0;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e8d1ae33; /* subtle separator, no box */
+}
+
+/* LABELS */
+label {
+    font-size: 17px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* BUTTON */
+button {
+    background-color: #e8d1ae;
+    color: #131e3d;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* RESULT */
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family:'Courier New', Courier, monospace;
+  background-color: #131e3d;
+}
+
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #cdad7d;
+  padding: 10px;
+  gap: 10px;
+}
+
+.topnav img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.topnav a {
+  position: relative; /* for ::after positioning */
+  display: block;
+  color: #eeead6;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  /* border-bottom removed */
+}
+
+/* Vertical colored separator lines on right side except last link */
+.topnav a:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 4px; /* thickness of line */
+  background-color: currentColor;
+}
+
+/* Different colors for each separator line */
+.topnav a:nth-child(2)::after { background-color: #fe3200; } /* red */
+.topnav a:nth-child(3)::after { background-color: #007a3f; } /* green */
+.topnav a:nth-child(4)::after { background-color: #ffffff; } /* gold/brown */
+.topnav a:nth-child(5)::after { background-color: #191614; } /* black/dark */
+.topnav a:nth-child(6)::after { background-color: #cdad7d; } /* black/dark */
+
+.topnav a.active {
+  font-weight: bold;
+  background-color: #131e3d;
+  border-radius: 12px;
+}
+
+.topnav a:hover {
+  background-color: #131e3d;
+}
+
+.topnav input[type=text] {
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  font-size: 16px;
+  margin-left: auto;
+}
+
+.topnav input::placeholder {
+  color: black;
+}
+

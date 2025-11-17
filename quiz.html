@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz | BudgetLens</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="quiz-page">
+
+    <div class="topnav">
+        <img src="videos/logo1.png" alt="logo">
+        <a href="home.html">Home</a>
+        <a href="uaemoneytips.html">UAE Money Tips</a>
+        <a href="expensetraps.html">Expense Traps</a>
+        <a href="budgetchallenge.html">Budget Challenge</a>
+        <a class="active" href="quiz.html">Quiz</a>
+        <input type="text" id="search-input" placeholder="Search">
+    </div>
+
+    <div class="container3">
+        <h1 class="h1quiz">UAE Smart Spending Quiz</h1>
+
+        <p class="pquiz">
+            Test your knowledge about expense traps, hidden costs, and smart saving strategies in the UAE.  
+            Choose the best answers and check your score at the end!
+        </p>
+
+        <form id="quizForm">
+
+            <div class="question">
+                <h2 class="h2quiz">1. What is a common daily expense trap in the UAE?</h2>
+                <label><input type="radio" name="q1" value="0"> Eating at home every day</label><br>
+                <label><input type="radio" name="q1" value="1"> Buying snacks, karak, and deliveries daily</label><br>
+                <label><input type="radio" name="q1" value="0"> Planning meals in advance</label>
+            </div>
+
+            <div class="question">
+                <h2 class="h2quiz">2. Which discount apps help you save up to half on restaurants?</h2>
+                <label><input type="radio" name="q2" value="1"> The Entertainer, Cobone, Groupon</label><br>
+                <label><input type="radio" name="q2" value="0"> Amazon and Careem</label><br>
+                <label><input type="radio" name="q2" value="0"> TikTok and Snapchat</label>
+            </div>
+
+            <div class="question">
+                <h2 class="h2quiz">3. What is a smart way to avoid hidden transport costs?</h2>
+                <label><input type="radio" name="q3" value="0"> Taking taxis everywhere</label><br>
+                <label><input type="radio" name="q3" value="1"> Using Nol, metro, and buses</label><br>
+                <label><input type="radio" name="q3" value="0"> Renting luxury cars</label>
+            </div>
+
+            <div class="question">
+                <h2 class="h2quiz">4. Why do sales like Dubai Summer Surprises help you save?</h2>
+                <label><input type="radio" name="q4" value="1"> Prices drop a lot if you wait for the right time</label><br>
+                <label><input type="radio" name="q4" value="0"> They only offer expensive items</label><br>
+                <label><input type="radio" name="q4" value="0"> You must spend more to save</label>
+            </div>
+
+            <div class="question">
+                <h2 class="h2quiz">5. Which option is an expense trap commonly found in malls?</h2>
+                <label><input type="radio" name="q5" value="0"> Using a shopping list</label><br>
+                <label><input type="radio" name="q5" value="1"> Impulse buying and unnecessary add-ons</label><br>
+                <label><input type="radio" name="q5" value="0"> Comparing prices</label>
+            </div>
+
+            <button type="button" onclick="checkScore()">Check My Score</button>
+
+            <p class="result" id="result"></p>
+        </form>
+    </div>
+
+<script>
+function checkScore() {
+    let total = 0;
+    const answers = document.querySelectorAll('input[type="radio"]:checked');
+
+    answers.forEach(ans => total += Number(ans.value));
+
+    let message = "";
+
+    if (total === 5) message = "Perfect score! You’re a UAE money pro!";
+    else if (total >= 3) message = "Good job! You know a lot about saving, but you can improve!";
+    else message = "You need to learn more about expense traps. Try again!";
+
+    document.getElementById("result").textContent = `Your score: ${total}/5 — ${message}`;
+}
+</script>
+
+</body>
+</html>
